@@ -10,6 +10,3 @@ app.get('*', (req, res) => {
 app.listen(port, () => {
     console.log('Server is up!');
 });
-app.get("/*", function (req, res) {
-    res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
-})
