@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 class ThemeSite extends Component {
     render() {
         return (
-            <div>
-                
+            <div className='d-flex flex-column justify-content-center align-items-center'>
+                <img src={this.props.imgPath} width="150"/>
+                <span>{this.props.title}</span>
             </div>
         );
     }

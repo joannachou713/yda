@@ -36,3 +36,111 @@
     transform: rotate(360deg);
   }
 }
+
+#carouselExampleIndicators {
+  height: 50vh !important;
+}
+
+.carousel-title {
+  background-color: #fff;
+  height: 90px;
+  margin-top: -40px;
+  top: 400px;
+  position: absolute;
+  right: 15%;
+  left: 15%;
+  /* z-index: 10; */
+  color: #707070;
+  /* text-align: center; */
+  border-radius: 10px;
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, .16)
+}
+
+.carousel-item {
+  height: 50rem;
+}
+
+.btn-normal {
+  border: 1px solid #707070;
+  border-radius: 50px;
+  width: 100px;
+  color: #707070;
+}
+
+#activities {
+  margin-top: 8rem;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  color: #707070;
+}
+
+#activities > h3{
+  text-align: center;
+}
+
+h5 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.activity-rect {
+  /* width: 500px !important; */
+  height: 400px !important;
+  margin-right: 56px !important;
+}
+
+.activity-list {
+  overflow-x: auto;
+}
+
+#activities>div>div {
+  flex: 0 0 22rem !important;
+  margin-right: 30px;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.w-90 {
+  width: 90%!important
+}
+
+.container-90 {
+  width: 90%!important;
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar{
+  z-index: 100;
+}
+
+.exploration{
+  margin: 100px 0px;
+}
+
+.full-width{
+  background-color:#E5E5E5;
+}
+
+.carousel-item > div > div:nth-child(1) > h4{
+  text-align:left;
+}
+
+.tab-content{
+  height: 336px!important;
+}
+
+.service-icon{
+  width: 170px !important;
+  height: 170px !important;
+  border-radius:50%!important;
+}
+
+.footer{
+  height: 250px;
+}

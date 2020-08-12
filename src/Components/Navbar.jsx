@@ -5,7 +5,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 class Navbar extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
         <div className="container d-flex justify-content-between">
           <a class="navbar-brand" href="/">
             <img src='./imgs/Thumbnail.png' height='50' className="mr-3"/>
