@@ -69,7 +69,7 @@ class Home extends Component {
 
     return (
     <React.Fragment>
-    <div className="container">
+    <div className="container-90">
         {/* start carousel */}
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -142,7 +142,7 @@ class Home extends Component {
     </div>
 
     {/* News */}
-    <div className="container">
+    <div className="container-90">
       <NewsArea allnews={this.state.allnews}/>
 
     {/* Theme Sites */}
