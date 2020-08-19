@@ -5,8 +5,8 @@ class Footer extends Component {
     return (
       <>
         <div className="footer full-width mt-5">
-          <div className="container-90">
-            <div className="d-flex justify-content-around align-items-center py-5 w-75 float-left">
+          <div className="container">
+            <div className="d-flex justify-content-around align-items-center py-5 w-100 float-left">
               <div>青年署簡介</div>
               <div>活動時間軸</div>
               <div>探索活動</div>
@@ -19,7 +19,7 @@ class Footer extends Component {
             </div>
           </div>
         </div>
-        <div className="container-90 mt-5">
+        <div className="container mt-5">
           <div className='my-3'>
             政府網站資料開放宣告 ｜ 無障礙使用說明 ｜ 青年署在哪裡 ｜
             網站隱私權及資訊安全

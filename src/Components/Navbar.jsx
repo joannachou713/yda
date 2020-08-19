@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
-        <div className="container-90 d-flex justify-content-between">
+        <div className="container d-flex justify-content-between">
           <a class="navbar-brand" href="/">
             <img src='./imgs/Thumbnail.png' height='50' className="mr-3"/>
           </a>
@@ -36,11 +36,11 @@ class Navbar extends Component {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  活動時間軸
+                  每月活動
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/explore">
                   探索活動
                 </a>
               </li>

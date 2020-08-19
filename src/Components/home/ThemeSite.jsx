@@ -4,7 +4,7 @@ class ThemeSite extends Component {
     render() {
         return (
             <div className='d-flex flex-column justify-content-center align-items-center'>
-                <img src={this.props.imgPath} width="150"/>
+                <img src={this.props.imgPath} width="100"/>
                 <span className='mt-2'>{this.props.title}</span>
             </div>
         );

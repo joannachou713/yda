@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Pagination from "@material-ui/lab/Pagination";
-import NewsRect from "../Components/NewsRect";
+import NewsRect from "../home/NewsRect";
 
 class NewsTab extends Component {
   state = {

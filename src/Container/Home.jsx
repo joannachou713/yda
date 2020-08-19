@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import ActivityRect from '../Components/ActivityRect'
-import NewsArea from '../Components/NewsArea'
-import ThemeSite from '../Components/ThemeSite'
-import Service from '../Components/Service'
+import ActivityRect from '../Components/home/ActivityRect'
+import NewsArea from '../Components/home/NewsArea'
+import ThemeSite from '../Components/home/ThemeSite'
+import Service from '../Components/home/Service'
 
 class Home extends Component {
     state = {
@@ -69,7 +69,7 @@ class Home extends Component {
 
     return (
     <React.Fragment>
-    <div className="container-90">
+    <div className="container">
         {/* start carousel */}
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -142,7 +142,7 @@ class Home extends Component {
     </div>
 
     {/* News */}
-    <div className="container-90">
+    <div className="container">
       <NewsArea allnews={this.state.allnews}/>
 
     {/* Theme Sites */}

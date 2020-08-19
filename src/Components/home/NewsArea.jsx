@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Tabs, Tab } from "react-bootstrap";
-import NewsTab from "../Components/NewsTab";
+import NewsTab from "../home/NewsTab";
 
 class NewsArea extends Component {
   state = {

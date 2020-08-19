@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6, span {
   color: #707070;
 }
 
-#activities > h3{
+#activities>h3 {
   text-align: center;
 }
 
@@ -110,37 +110,60 @@ h5 {
 .container-90 {
   width: 90%!important;
   padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.navbar{
+.navbar {
   z-index: 100;
 }
 
-.exploration{
+.exploration {
   margin: 100px 0px;
 }
 
-.full-width{
-  background-color:#E5E5E5;
+.full-width {
+  background-color: #E5E5E5;
 }
 
-.carousel-item > div > div:nth-child(1) > h4{
-  text-align:left;
+.carousel-item>div>div:nth-child(1)>h4 {
+  text-align: left;
 }
 
-.tab-content{
+.tab-content {
   height: 336px!important;
 }
 
-.service-icon{
-  width: 170px !important;
-  height: 170px !important;
-  border-radius:50%!important;
-}
-
-.footer{
+.footer {
   height: 250px;
 }
+
+.nav-tabs {
+  border-bottom: 5px solid #e5e5e5;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: transparent !important;
+}
+
+.active>div>img {
+  border: 8px solid #E5E5E5;
+  width: 100px!important;
+  height: 100px!important;
+}
+
+.active>div>span {
+  font-size: 20px;
+}
+
+.explore-tab {
+  border-left: 5px solid #e5e5e5;
+  border-right: 5px solid #e5e5e5;
+  border-bottom: 5px solid #e5e5e5;
+}
+
