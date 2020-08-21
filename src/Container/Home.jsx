@@ -57,7 +57,8 @@ class Home extends Component {
                         imgPath={act.imgPath}
                         date={act.date}
                         badges={act.badges}
-                        signup={act.signup}/>
+                        signup={act.signup}
+                        className='activity-rect-home'/>
         })}</div>
     }
 

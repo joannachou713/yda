@@ -88,10 +88,14 @@ h5 {
   text-align: left;
 }
 
-.activity-rect {
+.activity-rect-home {
   /* width: 500px !important; */
   height: 400px !important;
   margin-right: 56px !important;
+}
+.activity-rect-explore{
+  height: 400px !important;
+  /* margin-right: 30px !important; */
 }
 
 .activity-list {

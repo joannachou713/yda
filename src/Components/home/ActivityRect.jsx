@@ -7,7 +7,7 @@ class ActivityRect extends Component {
 
   render() {
     return (
-      <div class="card activity-rect" style={{ width: "18rem" }}>
+      <div className={`card ${this.props.className}`} style={{ width: "325px" }}>
         <img
           src={this.props.imgPath}
           class="card-img-top"
