@@ -14,17 +14,10 @@ class ActivityRect extends Component {
           alt="..."
           height="250"
         />
-        <div class="card-body d-flex justify-content-between align-items-center">
-          <div>
+        <div class="card-body d-flex flex-column justify-content-between align-items-start">
             <h5 class="card-title w-90">{this.props.title}</h5>
-            <div class="card-text w-90">{this.props.date}</div>
-            {this.renderBadge(this.props.badges)}
-          </div>
-          <div>
-            <a href="#" className="btn btn-normal">
-              了解更多
-            </a>
-          </div>
+            <div class="card-text w-90">{this.props.date}</div> {/*活動日期*/}
+            <div class="d-flex">{this.renderBadge(this.props.badges)}</div>
         </div>
       </div>
     );

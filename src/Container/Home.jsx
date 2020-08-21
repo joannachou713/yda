@@ -34,19 +34,19 @@ class Home extends Component {
             {date:'2020-07-20', tag:'招標公告', title:'這招標公告招標公告是假標題', url:'--'},
         ],
         themesites: [[
-          {title:'RICH 職涯體驗網', imgPath:'/imgs/temp.jpg'},
-          {title:'青年海外和平工作團', imgPath:'/imgs/temp.jpg'},
-          {title:'iYouth 青年國際圓夢平台', imgPath:'/imgs/temp.jpg'},
-          {title:'青年資源讚', imgPath:'/imgs/temp.jpg'},
-          {title:'U-Start 創新創業', imgPath:'/imgs/temp.jpg'},
-          {title:'壯遊體驗學習網', imgPath:'/imgs/temp.jpg'},
+          {title:'RICH 職涯體驗網', imgPath:'/imgs/temp.jpg', url:'https://rich.yda.gov.tw/'},
+          {title:'青年海外和平志工團', imgPath:'/imgs/temp.jpg', url:'https://yopc.yda.gov.tw/ch/index.php'},
+          {title:'iYouth 青年國際圓夢平台', imgPath:'/imgs/temp.jpg', url:'https://iyouth.youthhub.tw/index.php'},
+          {title:'青年資源讚', imgPath:'/imgs/temp.jpg', url:'https://youth-resources.yda.gov.tw/'},
+          {title:'U-Start 創新創業', imgPath:'/imgs/temp.jpg', url:'https://ustart.yda.gov.tw/bin/home.php'},
+          {title:'壯遊體驗學習網', imgPath:'/imgs/temp.jpg', url:'https://youthtravel.tw/'},
         ],[
-          {title:'青年好政', imgPath:'/imgs/temp.jpg'},
-          {title:'青年和平志工團', imgPath:'/imgs/temp.jpg'},
-          {title:'青年職涯輔導資訊平台', imgPath:'/imgs/temp.jpg'},
-          {title:'青年諮詢小組', imgPath:'/imgs/temp.jpg'},
-          {title:'超牆青年', imgPath:'/imgs/temp.jpg'},
-          {title:'智慧鐵人創意競賽', imgPath:'/imgs/temp.jpg'},
+          {title:'青年好政', imgPath:'/imgs/temp.jpg', url:'https://www.youthhub.tw/'},
+          {title:'青年海外和平志工團', imgPath:'/imgs/temp.jpg', url:'https://yopc.yda.gov.tw/ch/index.php'},
+          {title:'青年職涯輔導資訊平台', imgPath:'/imgs/temp.jpg', url:'https://mycareer.yda.gov.tw/'},
+          {title:'青年諮詢小組', imgPath:'/imgs/temp.jpg', url:'https://youthadvisory.yda.gov.tw/'},
+          {title:'超牆青年', imgPath:'/imgs/temp.jpg', url:'https://ydahub.tw/web/public/'},
+          {title:'智慧鐵人創意競賽', imgPath:'/imgs/temp.jpg', url:'https://ironman.creativity.edu.tw/18th/'},
         ]
         ]
     }
@@ -62,7 +62,7 @@ class Home extends Component {
     }
 
     renderThemes = (siteList)=>{
-      return <div className="d-flex justify-content-between align-items-center my-4">{siteList.map(site=> <ThemeSite title={site.title} imgPath={site.imgPath}/>)}</div>
+      return <div className="d-flex justify-content-between align-items-center my-4">{siteList.map(site=> <ThemeSite title={site.title} imgPath={site.imgPath} url={site.url}/>)}</div>
     }
 
   render() {
