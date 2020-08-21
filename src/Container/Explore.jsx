@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ExploreTheme from "../Components/explore/ExploreTheme";
 import ExploreTab from "../Components/explore/ExploreTab";
 import { Tabs, Tab } from "react-bootstrap";
+import ThemeSite from "../Components/home/ThemeSite";
 
 class Explore extends Component {
   constructor(props) {
@@ -582,15 +583,35 @@ class Explore extends Component {
     );
   };
 
+  renderThemes = (current) => {
+    let themes = {};
+    this.state.categories.forEach((category) => {
+      if (current === category.name) {
+        themes = category.themesites;
+      }
+    });
+
+    return themes.map((site) => (
+      <ThemeSite title={site.title} imgPath={site.imgPath} url={site.url} />
+    ));
+  };
+
   render() {
     return (
-      <div className="container mt-5">
-        <h3>探索活動</h3>
-        <div className="d-flex justify-content-center mt-4">
-          {this.renderCategories(this.state.categories)}
+      <>
+        <div className="container mt-5">
+          <h3>探索活動</h3>
+          <div className="d-flex justify-content-center mt-4">
+            {this.renderCategories(this.state.categories)}
+          </div>
+          {this.renderExploreTab(this.state.current)}
         </div>
-        {this.renderExploreTab(this.state.current)}
-      </div>
+
+        <div className="mt-5 full-width bg-light py-5">
+          <h3 className="text-center mb-3 mt-5">相關主題網站</h3>
+          <div className='mb-5 d-flex justify-content-center align-items-center'>{this.renderThemes(this.state.current)}</div>
+        </div>
+      </>
     );
   }
 }

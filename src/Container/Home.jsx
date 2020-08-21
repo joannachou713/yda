@@ -143,7 +143,7 @@ class Home extends Component {
     </div>
 
     {/* News */}
-    <div className="container">
+    <div className="container mb-5">
       <NewsArea allnews={this.state.allnews}/>
 
     {/* Theme Sites */}

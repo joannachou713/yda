@@ -4,9 +4,9 @@ import ActivityRect from "../home/ActivityRect";
 class ExploreTab extends Component {
   renderActivities = () => {
     let tempActs = []; //this.props.activities
-    console.log(Math.ceil(this.props.activities.length / 3));
+    // console.log(Math.ceil(this.props.activities.length / 3));
     for (let i = 0; i < Math.ceil(this.props.activities.length / 3); i++) {
-      console.log(i);
+      // console.log(i);
       let children = this.props.activities.slice(i * 3, i * 3 + 3);
       children = children.map((child) => (
         <ActivityRect
@@ -18,6 +18,10 @@ class ExploreTab extends Component {
           className='activity-rect-explore'
         />
       ));
+      console.log(children.length)
+      if(children.length===2){
+        children.push(<ActivityRect visibility='none'/>)
+      }
       tempActs.push(<div className="mb-4 w-100 d-flex justify-content-between align-items-center">{children}</div>)
     }
     return <div className='mt-5 w-100 d-flex flex-column justify-content-center align-items-center"'>{tempActs}</div>;

@@ -2,12 +2,12 @@ import React, { Component } from "react";
 
 class ActivityRect extends Component {
   renderBadge = (badges) => {
-    return badges.map((badge) => <span class="badge badge-secondary mr-3">{badge}</span>);
+    if(badges)return badges.map((badge) => <span class="badge badge-secondary mr-3">{badge}</span>);
   };
 
   render() {
     return (
-      <div className={`card ${this.props.className}`} style={{ width: "325px" }}>
+      <div className={`card ${this.props.className}`} style={{ width: "325px", opacity:`${this.props.visibility=='none'?0:1}` }} >
         <img
           src={this.props.imgPath}
           class="card-img-top"

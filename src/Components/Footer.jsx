@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <>
-        <div className="footer full-width mt-5">
+        <div className="footer full-width">
           <div className="container">
             <div className="d-flex justify-content-around align-items-center py-5 w-100 float-left">
               <div>青年署簡介</div>
