@@ -33,7 +33,7 @@ class NewsTab extends Component {
       this.setState({ page: value });
     };
     return (
-      <div className="border">
+      <div className="bg-light">
         {this.renderNewsRect(this.props.newsList, this.state.page)}
         <Pagination
           className="d-flex justify-content-center align-items-center py-4"

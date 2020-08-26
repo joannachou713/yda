@@ -14,7 +14,7 @@ class Explore extends Component {
       {
         eventKey: "career",
         name: "職場體驗",
-        icon: "/imgs/temp.jpg",
+        icon: "/imgs/icons/categories/職場體驗.png",
         description: (
           <div>
             開拓青年多元職場體驗機會，以協助青年在教育過程中培養多元就業能力。
@@ -65,7 +65,7 @@ class Explore extends Component {
       {
         eventKey: "society",
         name: "社會參與",
-        icon: "/imgs/temp.jpg",
+        icon: "/imgs/icons/categories/社會參與.png",
         description: (
           <div>
             為促進青年對公共事務參與的熱情，提升青年研議公共政策之能力，
@@ -128,7 +128,7 @@ class Explore extends Component {
       {
         eventKey: "overseas",
         name: "海外計畫",
-        icon: "/imgs/temp.jpg",
+        icon: "/imgs/icons/categories/海外計畫.png",
         description: (
           <div>
             為鼓勵青年參與深度國際體驗，協助青年開拓視野、增廣見聞、探索自我，
@@ -199,7 +199,7 @@ class Explore extends Component {
       {
         eventKey: "volunteer",
         name: "志工服務",
-        icon: "/imgs/temp.jpg",
+        icon: "/imgs/icons/categories/志工服務.png",
         description: (
           <div>
             整合縣市政府、民間團體及學校等資源，
@@ -243,7 +243,7 @@ class Explore extends Component {
       {
         eventKey: "travel",
         name: "壯遊體驗",
-        icon: "/imgs/temp.jpg",
+        icon: "/imgs/icons/categories/壯遊體驗.png",
         description: (
           <div>
             透過與在地非營利組織及大專校院合作以非營利之方式設置各地青年壯遊點，建置優質青年旅遊環境。
@@ -278,7 +278,7 @@ class Explore extends Component {
       {
         eventKey: "startup",
         name: "創業專區",
-        icon: "/imgs/temp.jpg",
+        icon: "/imgs/icons/categories/創業專區.png",
         description: (
           <div>
             為培育具創業家精神之人才，青年署結合學校育成輔導資源，
@@ -355,7 +355,7 @@ class Explore extends Component {
       {
         eventKey: "ability",
         name: "學生能力培養",
-        icon: "/imgs/temp.jpg",
+        icon: "/imgs/icons/categories/學生能力培養.png",
         description: (
           <div>
             為提升青年領導力與創意，向下紮根培養適性人才，
@@ -397,7 +397,7 @@ class Explore extends Component {
       {
         eventKey: "ccounceling",
         name: "生涯輔導",
-        icon: "/imgs/temp.jpg",
+        icon: "/imgs/icons/categories/生涯輔導.png",
         description: (
           <div>
             為強化不同就學階段之青年學子之生涯發展，本署針對高中生、大專生以及為升學就業青年，
@@ -477,7 +477,7 @@ class Explore extends Component {
       {
         eventKey: "counceling",
         name: "青年諮詢",
-        icon: "/imgs/temp.jpg",
+        icon: "/imgs/icons/categories/青年諮詢.png",
         description: (
           <div>
             為廣納青年意見、了解青年需求、落實青年賦權，讓政策研擬更符合青年需求，
@@ -607,7 +607,7 @@ class Explore extends Component {
           {this.renderExploreTab(this.state.current)}
         </div>
 
-        <div className="mt-5 full-width bg-light py-5">
+        <div className="mt-5 py-5">
           <h3 className="text-center mb-3 mt-5">相關主題網站</h3>
           <div className='mb-5 d-flex justify-content-center align-items-center'>{this.renderThemes(this.state.current)}</div>
         </div>

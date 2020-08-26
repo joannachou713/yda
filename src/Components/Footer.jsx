@@ -6,7 +6,7 @@ class Footer extends Component {
       <>
         <div className="footer full-width">
           <div className="container">
-            <div className="d-flex justify-content-around align-items-center py-5 w-100 float-left">
+            <div className="d-flex justify-content-around align-items-start py-5 w-100 float-left footer">
               <div>青年署簡介</div>
               <div>活動時間軸</div>
               <div>探索活動</div>
@@ -19,13 +19,13 @@ class Footer extends Component {
             </div>
           </div>
         </div>
-        <div className="container mt-5">
-          <div className='my-3'>
+        <div className="pt-5 full-width">
+          <div className='container my-3'>
             政府網站資料開放宣告 ｜ 無障礙使用說明 ｜ 青年署在哪裡 ｜
             網站隱私權及資訊安全
           </div>
 
-          <div className='mb-5'>
+          <div className='container mb-5'>
             建議瀏覽器：Chrome, Firefox, IE10(含)以上 ｜ 瀏覽人次： 4242922
             <br />
             版權所有 Copyright C 2013教育部青年發展署
@@ -34,7 +34,7 @@ class Footer extends Component {
             傳真：(02)2356-6307
           </div>
 
-          <div className='mb-5'>
+          <div className='container pb-5'>
               <a href='https://www.edu.tw/'><img src='/imgs/logo_edu.png' height='40' className='mr-5'/></a>
               <a href='https://www.sa.gov.tw/wSite/mp?mp=11'><img src='/imgs/logo_sa.jpg' height='40' className='mr-5'/></a>
               <a href='https://www.k12ea.gov.tw/ap/index.aspx'><img src='/imgs/logo_k12ea.png' height='40' className='mr-5'/></a>
