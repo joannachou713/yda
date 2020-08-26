@@ -7,7 +7,7 @@ class ActivityRect extends Component {
 
   render() {
     return (
-      <div className={`card ${this.props.className}`} style={{ width: "325px", opacity:`${this.props.visibility=='none'?0:1}` }} >
+      <a href='/activity'><div className={`card ${this.props.className}`} style={{ width: "325px", opacity:`${this.props.visibility=='none'?0:1}` }} >
         <img
           src={this.props.imgPath}
           class="card-img-top"
@@ -19,7 +19,7 @@ class ActivityRect extends Component {
             <div class="card-text w-90">{this.props.date}</div> {/*活動日期*/}
             <div class="d-flex">{this.renderBadge(this.props.badges)}</div>
         </div>
-      </div>
+      </div></a>
     );
   }
 }

@@ -6,7 +6,7 @@ import Photo from "../Components/activity/Photo";
 
 class Activity extends Component {
   state = {
-    currenState: "歷屆分享",
+    currenState: "活動介紹",
     title: "青年志工自組團隊",
     visual: "/imgs/活動主視覺/志工自組.png",
     description: (
