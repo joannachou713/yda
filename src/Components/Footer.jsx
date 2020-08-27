@@ -10,7 +10,6 @@ class Footer extends Component {
               <div>青年署簡介</div>
               <div>活動時間軸</div>
               <div>探索活動</div>
-              <div>活動報名</div>
               <div>最新消息</div>
               <div>青年重大政策</div>
               <div>法令規章</div>

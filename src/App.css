@@ -195,7 +195,6 @@ img.rounded-circle:hover {
   transition: all 0.25s;
 }
 
-
 .triangle {
   width: 0;
   height: 0;
@@ -295,10 +294,24 @@ hr {
   height: 0;
 }
 
-h5{
+h5 {
   margin-bottom: 0!important;
 }
 
-a{
+a {
   text-decoration: none;
+}
+
+.rounded-pill>input {
+  border: none!important;
+  background-color: transparent;
+}
+
+textarea:focus, input:focus{
+  outline: none!important;
+  background: transparent!important;
+}
+
+*:focus {
+  outline: none;
 }
