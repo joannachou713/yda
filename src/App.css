@@ -188,7 +188,7 @@ h5 {
   transition: all 0.25s;
 }
 
-img.rounded-circle:hover {
+.category-icon:hover {
   border: 8px solid #FDBA4E;
   width: 100px!important;
   height: 100px!important;

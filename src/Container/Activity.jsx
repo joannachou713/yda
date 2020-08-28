@@ -20,7 +20,7 @@ class Activity extends Component {
       </div>
     ),
     targetDescription: "團隊人數須為6人以上，每一位青年以參加兩個團隊為限。",
-    targets: ["18-35青年", "高級中等以上學校", "社會團體或財團法人"],
+    targets: ["18-35青年", "高級中等以上學校", "社會團體或財團法人",],
     date: "全年度活動",
     contact: {
       name: "黃小姐",

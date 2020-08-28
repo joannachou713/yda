@@ -13,7 +13,7 @@ class ExploreTheme extends Component {
     render() {
         return (
             <div id={this.props.title} onClick={this.hangleClick} className='explore-theme d-flex flex-column justify-content-between align-items-center'>
-                <img className='rounded-circle' src={this.props.imgPath} width="100"/>
+                <img className='category-icon rounded-circle' src={this.props.imgPath} width="100"/>
                 <span className='mt-2'>{this.props.title}</span>
                 <div className='triangle mt-4 hidden'></div>
             </div>
