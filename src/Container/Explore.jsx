@@ -27,7 +27,7 @@ class Explore extends Component {
         themesites: [
           {
             title: "RICH 職涯體驗網",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/RICH.png",
             url: "https://rich.yda.gov.tw/",
           },
         ],
@@ -78,12 +78,12 @@ class Explore extends Component {
         themesites: [
           {
             title: "青年好政",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/青年好政.png",
             url: "https://www.youthhub.tw/",
           },
           {
             title: "青年社區參與行動",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/青年社區參與行動.png",
             url: "https://act.ydachangemaker.tw/",
           },
         ],
@@ -139,22 +139,22 @@ class Explore extends Component {
         themesites: [
           {
             title: "Young 飛",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/young飛.png",
             url: "http://youthaction.org.tw/",
           },
           {
             title: "青年海外和平志工團",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/青年海外和平工作團.png",
             url: "https://yopc.yda.gov.tw/ch/index.php",
           },
           {
             title: "全球青年趨勢論壇",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/全球青年趨勢論壇.png",
             url: "https://iyouth.youthhub.tw/2019ypp/",
           },
           {
             title: "iYouth 青年國際圓夢平台",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/iYouth.png",
             url: "https://iyouth.youthhub.tw/index.php",
           },
         ],
@@ -212,7 +212,7 @@ class Explore extends Component {
         themesites: [
           {
             title: "青年教育志工",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/青年教育志工＿績優團隊全國競賽.png",
             url: "https://youthvolunteer.yda.gov.tw/",
           },
         ],
@@ -254,7 +254,7 @@ class Explore extends Component {
         themesites: [
           {
             title: "壯遊體驗學習網",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/壯遊體驗.png",
             url: "https://youthtravel.tw/",
           },
         ],
@@ -291,17 +291,17 @@ class Explore extends Component {
         themesites: [
           {
             title: "U-Start 創新創業",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/Ustart.png",
             url: "https://ustart.yda.gov.tw/bin/home.php",
           },
           {
             title: "創創點火器",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/創創點火器.png",
             url: "https://www.rockfuture.net/",
           },
           {
             title: "超牆青年",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/超牆青年.png",
             url: "https://ydahub.tw/web/public/",
           },
         ],
@@ -368,12 +368,12 @@ class Explore extends Component {
         themesites: [
           {
             title: "智慧鐵人創意競賽",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/智慧鐵人.png",
             url: "https://ironman.creativity.edu.tw/18th/",
           },
           {
             title: "大專女學生領導力培訓營",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/大專女.png",
             url: "https://www.rockfuture.net/",
           },
         ],
@@ -409,16 +409,16 @@ class Explore extends Component {
           {
             title: "U-Start 創新創業",
             imgPath: "/imgs/temp.jpg",
-            url: "https://ustart.yda.gov.tw/bin/home.php",
+            url: "/imgs/icons/themes/Ustart.png",
           },
           {
             title: "創創點火器",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/創創點火器.png",
             url: "https://www.rockfuture.net/",
           },
           {
             title: "超牆青年",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/超牆青年.png",
             url: "https://ydahub.tw/web/public/",
           },
         ],
@@ -490,7 +490,7 @@ class Explore extends Component {
         themesites: [
           {
             title: "青年諮詢小組",
-            imgPath: "/imgs/temp.jpg",
+            imgPath: "/imgs/icons/themes/行政院青諮會.png",
             url: "https://youthadvisory.yda.gov.tw/",
           },
         ],
